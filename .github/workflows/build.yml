@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node_version: [20.x]  # Node.js 버전을 명시적으로 지정
+        node_version: [20]  # Node.js 버전을 명시적으로 지정
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node.js ${{ matrix.node_version }}
