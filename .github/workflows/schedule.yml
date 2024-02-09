@@ -15,4 +15,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.PRODUCTIVE_BOX }}
           GIST_ID: ${{ secrets.PRODUCTIVE_BOX_GIST_ID }}
-          TIMEZONE: Asia/Taipei
+          TIMEZONE: Asia/Seoul
